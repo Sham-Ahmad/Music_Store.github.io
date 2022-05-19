@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    color: rgb(179, 179, 179);
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 30px;
+}
+
+.main-header{
+    background-color: rgb(0, 0, 0, 0.6);
+    background-image: url(imgs/headerbackground1.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding-bottom: 30px;
+}
+
+body{
+    background-color: rgb(39, 48, 59);
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul{
+    margin: 0;
+}
+
+.nav li{
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.nav a{
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 5%;
+}
+
+.nav a:hover{
+    background-color: rgb(148, 148, 148,0.4);
+}
+
+.main-nav{
+    text-align: center;
+    border-bottom: 2px double rgba(255, 255, 255, 0.4);
+}
+
+.main-nav li{
+    padding: 2% 5%;
+}
+
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-size: 50px;
+}
+
+#band-name-header{
+    font-size: 300%;
+    padding: 40px 0px;
+}
+
+.content-section{
+    margin: 4%;
+} 
+
+ .container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}  
+
+.section-head{
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.about-band-img{
+    float: right;
+    margin: 0px 4%;
+    border-radius: 50% 50% 50% 50%;
+    /* width: 500px;
+    height: 500px; */
+    width: 500px;
+}
+
+.main-footer ul{
+    margin: 0;
+}
+
+.main-footer{
+    background-color: rgb(33, 77, 135);
+    color: white;
+    padding: .25em 1.5em;
+}
+
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li{
+    padding: 0 .5em;
+}
+
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+
+.btn-header{
+    margin: .5em 30% 1em 30%;
+    color: white;
+    border: 2px solid rgb(33, 77, 135);
+    background-color: rgb(148, 148, 148,0.19);
+    border-radius: 0;
+    font-size: 1.5em;
+    padding: 0px 2em;
+}
+
+.btn-header:hover{
+    background-color: rgb(148, 148, 148,0.4);
+}
+
+.btn-play{
+    display: block;
+    margin: 0 auto;
+    color: rgb(33, 77, 135);
+    font-size: 3em;
+    border-radius: 50% 50% 50% 50%;
+    padding: 0;
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+}
+
+.tour-section{
+    text-align: center;
+}
+
+.section-head-tour{
+    margin-bottom: 7%;
+}
+
+.tour-row{
+    border-bottom: 3px solid white;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.tour-row:last-child{
+    border-bottom: none;
+}
+
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+}
+
+.tour-date{
+    color: white;
+    font-weight: bolder;
+    width: 15%;
+}
+
+.tour-city{
+    width: 13%;
+}
+
+.tour-arena{
+    width: 39%;
+}
+
+.tour-btn{
+    max-width: 19%;
+}
+
+.btn-pri{
+    color: white;
+    background-color: rgb(33, 77, 135);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-pri:hover{
+    background-color: rgb(20, 48, 84);
+}
+
+.btn-first{
+    margin: .5em 30% 1em 31%;
+    padding: 20px 120px;
+}
+
+.btn-first a{
+    text-decoration: none;
+    font-size: 50px;
+    color: white;
+    font-family: 'Playfair Display', serif;
+}
+
+.shop-item{
+    margin: 30px;
+}
+
+.shop-item-title{
+    display: block;
+    width: 100;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.shop-item-img{
+    height: 400px;
+
+}
+
+.shop-item-det{
+    display: flex;
+    align-items: center;
+    padding: 5;
+}
+
+shop-item-price{
+    flex-grow: 1;
+}
+
+.shop-item-btn{
+    margin-left: 35%;
+}
+
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.store-section{
+    margin-bottom: 13%;
+}
+
+.store-head{
+    margin-bottom: 8%;
+}
+
+.music-head{
+    margin-top: 6%;
+}
+
+.cart-header{
+    font-weight: bold;
+}
+
+.cart-column{
+    display: flex; 
+    align-items: center;
+    border-bottom: 1px solid white;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-row{
+    display: flex;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price{
+    width: 20%;
+}
+
+.cart-quan{
+    width: 35%;
+}
+
+.cart-item-title{
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-img{
+    border-radius: 15%;
+}
+
+.btn-red{
+    color: white;
+    background-color: rgb(236, 65, 65);
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-size: smaller;
+    width: 150px;
+}
+
+.btn-red:hover{
+    background-color: rgb(209, 117, 117);
+}
+
+.cart-item-input{
+    height: 50px;
+    width: 90px;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+    margin-right: 25px;
+    color: rgb(105, 105, 105);
+}
+
+.cart-row:last-child{
+    border-bottom: 1px solid white;
+}
+
+.cart-row:last-child .cart-column{
+    border: none;
+}
+
+.cart-total{
+    text-align: end;
+    margin: 10px 10px 0px 0px;
+}
+
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-right: 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.3em;
+    font-family: 'Playfair Display', serif;
+}
